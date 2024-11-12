@@ -1,0 +1,330 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    color: #1720a2;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1{
+    margin-left: 70px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #1f1db6;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Logo Styling */
+.logo-container {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+/* Content Section Styling */
+.content-section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+/* Header and Section Headings */
+h2, .heading {
+    color: #4a6b7c;
+    font-size: 4em;
+    font-family: serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Chat Container Styling */
+#chat-container {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: white;
+}
+
+#chatbox {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+}
+
+#user-input {
+    width: 85%;
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: hsl(248, 88%, 43%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+button:hover {
+    background-color: #b57eb7;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: hsl(248, 88%, 43%);
+    color: white;
+}
+
+/* Login Form Styles */
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.form {
+    background: hsl(248, 88%, 43%);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.form input {
+    background: #f2f2f2;
+    width: 100%;
+    margin: 0 0 15px;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.form button {
+    width: 100%;
+    padding: 15px;
+    background-color: hsl(248, 88%, 43%);
+    color: #FFFFFF;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.form button:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+}
+
+.form .message {
+    margin: 6px 0;
+    color: #b57eb7;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.form .message a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+/* Mental Health Conditions Section */
+.mental-health-conditions {
+    text-align: center;
+    padding: 20px;
+}
+
+.conditions-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.condition-card {
+    width: 250px;
+    height: 130px;
+    background-color: #4a6b7c;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.7em;
+    transition: background-color 0.3s ease;
+}
+
+.condition-card:hover {
+    background-color: #568ca4;
+}
+
+.condition-card.see-all {
+    background-color: #c8e75f;
+}
+
+.condition-label {
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+/* Image Section Styling */
+.image-section {
+    text-align: center;
+}
+
+.background-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+/* About Mental Health Section */
+.about-mental-health {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.about-mental-health h2 {
+    font-size: 4em;
+    color: #4a6b7c;
+    margin-bottom: 20px;
+    font-family: serif;
+}
+
+/* Container for each video and text pair */
+.media-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    gap: 50px;
+}
+
+.media-container iframe {
+    width: 40%; /* Adjust as needed */
+    height: 350px;
+    border-radius: 8px;
+}
+
+.media-container p {
+    width: 50%; /* Adjust as needed */
+    text-align: left;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Reverse order for second video and text pair */
+.media-container.reverse {
+    flex-direction: row-reverse;
+    margin-right: 50px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .media-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .media-container.reverse {
+        flex-direction: column;
+    }
+    
+    .media-container iframe, .media-container p {
+        width: 100%;
+    }
+}
+
+.about {
+    display: flex;
+    background-color: gainsboro;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-content p {
+    width: 50%;
+    text-align: left;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-left: 100px;
+    color: #333;
+}
+
+.photo {
+    width: auto;
+    max-width: 400px;
+    height: 400px;
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-content p, .photo {
+        width: 100%;
+    }
+}
